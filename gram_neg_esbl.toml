@@ -62,7 +62,6 @@ mechanisms = [
 {members = ["blaCTX-M-52"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
 {members = ["blaCTX-M-53"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
 {members = ["blaCTX-M-54"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
-{members = ["blaCTX-M-24_2"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
 {members = ["blaCTX-M-55"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
 {members = ["blaCTX-M-56"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
 {members = ["blaCTX-M-58"], phenotypes = [{effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}]},
