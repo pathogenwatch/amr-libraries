@@ -10,7 +10,6 @@ The format has been developed to support the internal tool Pathogenwatch uses to
 | Staphylococcus aureus | 1280 |
 | Salmonella _Typhi_ | 90370 |
 | Streptococcus pneumoniae | 1313 |
-| Candida auris | 498019 |
 
 ### Versioning
 Tagged commits correspond to specific release of the library used for AMR predictions. 
