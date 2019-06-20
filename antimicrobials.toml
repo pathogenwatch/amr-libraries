@@ -37,7 +37,7 @@ antimicrobials = [
 {name = "Other", key = "SIL", type = "Other"},
 {name = "Chloramphenicol", key = "CHL", type = "Phenicols"},
 {name = "Florfenicol", key = "FFN", type = "Phenicols"},
-{name = "Fosfomycin", key = "FOS", type = "Phosphonic Acid"},
+{name = "Fosfomycin", key = "FOF", type = "Phosphonic Acid"},
 {name = "Pore A", key = "POA", type = "Pores"},
 {name = "Pyrazinamide", key = "PZA", type = "Pyrazinamide"},
 {name = "Rifampicin", key = "RIF", type = "Rifamycin"},
