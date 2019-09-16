@@ -54,6 +54,7 @@ antimicrobials = [
 {name = "Sulfonamides", key = "SMX", type = "Sulfonamides"},
 {name = "Sulfamethoxazole", key = "SSS", type = "Sulfonamides"},
 {name = "Tetracycline", key = "TCY", type = "Tetracyclines"},
+{name = "Minocycline", key = "MIN", type = "Tetracyclines"},
 # Anti fungals
 {name = "5-flucytosine", key = "5FC", type = "5-flucytosine"},
 {name = "Anidulafungin", key = "AFG", type = "Anidulafungin"},
