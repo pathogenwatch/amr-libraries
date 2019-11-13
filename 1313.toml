@@ -166,7 +166,9 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["KAN"]}], members = ["aph_3prime_III_1"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["MAC"]}], members = ["msrD_2"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["MAC"]}], members = ["msrD_3"]},
-{phenotypes = [{effect = "INTERMEDIATE_ADDITIVE", profile = ["SSS"]}], members = [{gene="folP", variants=["aa_insert_57-70"]}, {gene="folA", variants=["I100L"]}]},
+{phenotypes = [{effect = "RESISTANT", profile = ["SSS"]}], members = [{gene="folP", variants=["aa_insert_57-70"]}]},
+{phenotypes = [{effect = "INTERMEDIATE_ADDITIVE", profile = ["SXT"]}], members = [{gene="folP", variants=["aa_insert_57-70"]}, {gene="folA", variants=["I100L"]}]},
+{phenotypes = [{effect = "RESISTANT", profile = ["TMP"]}], members = [{gene="folA", variants=["I100L"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetK_4"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetM_1"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetM_12"]},
@@ -176,5 +178,4 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetM_5"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetM_8"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetO"]},
-{phenotypes = [{effect = "RESISTANT", profile = ["TMP"]}], members = [{gene="folA", variants=["I100L"]}]},
 ]
