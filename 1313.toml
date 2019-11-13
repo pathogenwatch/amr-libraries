@@ -145,7 +145,6 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["ERY"]}], members = ["mefA_3"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["ERY"]}], members = ["mefA_10"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["ERY"]}], members = ["mefB"]},
-{phenotypes = [{effect = "RESISTANT", profile = ["ERY"]}], members = ["mefE"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["FLQ"]}], members = [{gene="gyrA", variants=["S81F"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["FLQ"]}], members = [{gene="gyrA", variants=["S81Y"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["FLQ"]}], members = [{gene="gyrA", variants=["S81C"]}]},
