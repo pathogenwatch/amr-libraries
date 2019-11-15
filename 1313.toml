@@ -223,6 +223,7 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetO"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetQ"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetS"]},
+{phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetS_M"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetT"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetU"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetW"]},
