@@ -47,6 +47,7 @@ genes = [
 mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="23S_rDNA", variants=["a2045g"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"], modifiers = [{gene = "mtrC", variants = ["disrupted"], effect = "SUPPRESSES"}]}], members = [{gene="23S_rDNA", variants=["c2597t"]}]},
+{phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="23S_rDNA", variants=["c2597t"]}, {gene="mtrR_promoter", variants=["a-57del"]}, {gene="mtrR", variants=["G45D"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["ermA"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["ermB"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["ermC"]},
@@ -117,7 +118,7 @@ mechanisms = [
 {phenotypes = [{effect = "INTERMEDIATE", profile = ["PEN"]}], members = [{gene="ponA1", variants=["L421P"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["PEN"]}], members = [{gene="porB1b", variants=["G120K", "A121N"]},{gene="ponA1", variants=["L421P"]}, {gene="mtrR_promoter", variants=["a-57del"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["PEN"]}], members = [{gene="porB1b", variants=["A121D"]},{gene="ponA1", variants=["L421P"]}, {gene="mtrR", variants=["G45D"]}, {gene="mtrR_promoter", variants=["a-57del"]}]},
-{phenotypes = [{effect = "RESISTANT", profile = ["PEN"], modifiers = [{gene="blaTEM", variants=["frameshift"], effect="SUPPRESSES"}, {gene="blaTEM", variants=["truncated"], effect="SUPPRESSES"}]}], members = ["blaTEM"]},
+{phenotypes = [{effect = "RESISTANT", profile = ["PEN"]}], members = ["blaTEM"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["POA"]}], members = ["porA"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["SMX"]}], members = [{gene="folP", variants=["R228S"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["SPT"]}], members = [{gene="16S_rDNA", variants=["c1184t"]}]},
