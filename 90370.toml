@@ -55,7 +55,7 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["AMP"]}], members = ["blaOXA-7"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AMP", "CEP"]}], members = ["ampC"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AMP", "CEP"]}], members = ["blaCMY-2"]},
-{phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = ["qnr-S"]},
+{phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = ["qnrS"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = ["qnrA"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = ["qnrB"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = ["qnrD"]},
