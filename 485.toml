@@ -60,7 +60,7 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["mtrD_mosaic_1"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["mtrD_mosaic_2"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["mtrD_mosaic_3"]},
-{phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="rplD", variants=["G70D"]}]},
+{phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="rplD", variants=["G70D"]}, {gene="23S_rDNA", variants=["c2597t"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="rplV", variants=["----90ARAK"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="rplV", variants=["------83KGPSLK"]}]},
 {phenotypes = [{effect = "INTERMEDIATE", profile = ["PEN","TCY"]}], members = [{gene="mtrR_promoter", variants=["g-131a"]}]},
