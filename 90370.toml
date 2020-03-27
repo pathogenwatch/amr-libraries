@@ -63,8 +63,6 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["CHL"]}], members = ["catA1"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetA(A)"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetA(B)"]},
-{phenotypes = [{effect = "RESISTANT", profile = ["SIL"]}], members = ["tetR(A)"]},
-{phenotypes = [{effect = "RESISTANT", profile = ["SIL"]}], members = ["tetR(B)"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetA(C)"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TCY"]}], members = ["tetA(D)"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["CHL"]}], members = ["cmlA"]},
