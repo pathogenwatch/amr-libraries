@@ -112,5 +112,5 @@ mechanisms = [
 {phenotypes = [{effect = "INTERMEDIATE", profile = ["CIP"]}], members = [{gene="parE", variants=["L416F"]}]},
 {phenotypes = [{effect = "INTERMEDIATE", profile = ["CIP"]}], members = [{gene="parE", variants=["D420N"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = [{gene="gyrA", variants=["S83F", "D87N"]}, {gene="parC", variants=["S80I"]}]},
-{phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = [{gene="gyrA", variants=["S83F", "D87G"]}, {gene="parC", variants=["S80I"]}]},
+#{phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}], members = [{gene="gyrA", variants=["S83F", "D87G"]}, {gene="parC", variants=["S80I"]}]},
 ]
