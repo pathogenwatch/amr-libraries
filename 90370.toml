@@ -75,6 +75,7 @@ mechanisms = [
 {phenotypes = [{effect = "RESISTANT", profile = ["TMP"]}], members = ["dfrA17"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["TMP"]}], members = ["dfrA18"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="acrB", variants=["R717Q"]}]},
+{phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = [{gene="acrB", variants=["R717L"]}]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["mphA"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["mphB"]},
 {phenotypes = [{effect = "RESISTANT", profile = ["AZM"]}], members = ["ermA"]},
