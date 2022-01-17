@@ -6,10 +6,12 @@ The format has been developed to support the internal tool Pathogenwatch uses to
 ### Libraries
 | Species | NCBI Code |
 |---|---|
+| Campylobacter | 194 |
 | Neisseria gonorrhoeae | 485 |
 | Staphylococcus aureus | 1280 |
 | Salmonella _Typhi_ | 90370 |
 | Streptococcus pneumoniae | 1313 |
+| Vibrio cholerae | 666 |
 
 ### Versioning
 Tagged commits correspond to specific release of the library used for AMR predictions. 
