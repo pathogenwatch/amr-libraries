@@ -4,7 +4,7 @@ name: Push main to public
 
 on:
   push:
-    branches: [ "test" ]
+    branches: [ "main" ]
     tags:
       - '*'
 
