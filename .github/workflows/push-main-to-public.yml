@@ -16,15 +16,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: git-sync
+        uses: wei/git-sync@v3
         with:
-          ref: main
-          fetch-depth: 0
-      # Runs a set of commands using the runners shell
-      - name: Push to public remote
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "cgps-admin"
-          git config user.email "cgps.dev@gmail.com"
-          git push set-url main https://cgps-admin:${GITHUB_TOKEN}@github.com/pathogenwatch-oss/amr-libraries.git --follow-tags
+          source_repo: "pathogenwatch/amr-libraries"
+          source_branch: "main"
+          destination_repo: "pathogenwatch-oss/amr-libraries"
+          destination_branch: "main"
+          # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} # optional
+          # source_ssh_private_key: ${{ secrets.SOURCE_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
+          # destination_ssh_private_key: ${{ secrets.DESTINATION_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
+    # steps:
+    #   - uses: actions/checkout@v3
+    #     with:
+    #       ref: main
+    #       fetch-depth: 0
+    #   # Runs a set of commands using the runners shell
+    #   - name: Push to public remote
+    #     env:
+    #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #     run: |
+    #       git config user.name "cgps-admin"
+    #       git config user.email "cgps.dev@gmail.com"
+    #       git push set-url main https://cgps-admin:${GITHUB_TOKEN}@github.com/pathogenwatch-oss/amr-libraries.git --follow-tags
