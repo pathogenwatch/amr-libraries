@@ -27,5 +27,4 @@ jobs:
         run: |
           git config user.name "cgps-admin"
           git config user.email "cgps.dev@gmail.com"
-          git remote add public https://cgps-admin:${GITHUB_TOKEN}@github.com/pathogenwatch-oss/amr-libraries.git
-          git push -u public main --follow-tags
+          git push set-url main https://cgps-admin:${GITHUB_TOKEN}@github.com/pathogenwatch-oss/amr-libraries.git --follow-tags
