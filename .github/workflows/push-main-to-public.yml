@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Push main to public
+
+on:
+  push:
+    branches: [ "test" ]
+    tags:
+      - '*'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: git-sync
+        uses: wei/git-sync@v3
+        with:
+          source_repo: "pathogenwatch/amr-libraries"
+          source_branch: "main"
+          destination_repo: "https://cgps-admin:${{ secrets.GIT_PUSH_TOKEN }}@github.com/pathogenwatch-oss/amr-libraries.git"
+          destination_branch: "main"
