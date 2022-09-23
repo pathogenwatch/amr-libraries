@@ -23,7 +23,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Push to public remote
         env:
-          token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          token: ${{ secrets.GIT_PUSH_TOKEN }}
         run: |
           git config user.name "cgps-admin"
           git config user.email "cgps.dev@gmail.com"
