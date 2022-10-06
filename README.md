@@ -18,4 +18,4 @@ Tagged commits correspond to specific release of the library used for AMR predic
 The library used is shown in the PW website.
 
 ## Licence
-TBD. 
+See [LICENSE](/LICENSE).
