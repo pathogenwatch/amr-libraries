@@ -30,7 +30,7 @@ antimicrobials = [
     { name = "Co-Trimoxazole", key = "SXT", type = "Combination" },
     { name = "Amoxicillin-Clavulanic Acid", key = "AMC", type = "Combination" },
     { name = "Piperacillin-Tazobactam", key = "TZP", type = "Combination" },
-    { name = "quinupristin-dalfopristin", key = "QDP", type = "Combination" },
+    { name = "Quinupristin-Dalfopristin", key = "QDP", type = "Combination" },
     { name = "Trimethoprim", key = "TMP", type = "Diaminopyrimidine" },
     { name = "Fusidic Acid", key = "FUS", type = "Fusidic Acid" },
     { name = "Fluoroquinolones", key = "FLQ", type = "Fluoroquinolones" },
