@@ -61,8 +61,9 @@ antimicrobials = [
     { name = "Streptogramin B", key = "SGB", type = "Streptogramins" },
     { name = "Sulfonamides", key = "SMX", type = "Sulfonamides" },
     { name = "Sulfamethoxazole", key = "SSS", type = "Sulfonamides" },
-    { name = "Tetracycline", key = "TCY", type = "Tetracyclines" },
+    { name = "Doxycycline", key = "DOX", type = "Tetracyclines"},
     { name = "Minocycline", key = "MIN", type = "Tetracyclines" },
+    { name = "Tetracycline", key = "TCY", type = "Tetracyclines" },
     # Anti fungals
     { name = "5-flucytosine", key = "5FC", type = "5-flucytosine" },
     { name = "Anidulafungin", key = "AFG", type = "Anidulafungin" },
