@@ -50,6 +50,8 @@ antimicrobials = [
     { name = "Telithromycin", key = "TEL", type = "Macrolides" },
     { name = "Tylosin", key = "TYL", type = "Macrolides" },
     { name = "Mupirocin", key = "MUP", type = "Mupirocin" },
+    { name = "Furazolidone", key = "FZL", type = "Nitrofurans" },
+    { name = "Nitrofurantoin", key = "NFT", type = "Nitrofurans" },
     { name = "Linezolid", key = "LNZ", type = "Oxazolidinone" },
     { name = "Other", key = "SIL", type = "Other" },
     { name = "Chloramphenicol", key = "CHL", type = "Phenicols" },
@@ -61,7 +63,8 @@ antimicrobials = [
     { name = "Streptogramin B", key = "SGB", type = "Streptogramins" },
     { name = "Sulfonamides", key = "SMX", type = "Sulfonamides" },
     { name = "Sulfamethoxazole", key = "SSS", type = "Sulfonamides" },
-    { name = "Doxycycline", key = "DOX", type = "Tetracyclines"},
+    { name = "Sulfisoxazole", key = "SSX", type = "Sulfonamides" },
+    { name = "Doxycycline", key = "DOX", type = "Tetracyclines" },
     { name = "Minocycline", key = "MIN", type = "Tetracyclines" },
     { name = "Tetracycline", key = "TCY", type = "Tetracyclines" },
     # Anti fungals
