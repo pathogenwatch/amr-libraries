@@ -6,6 +6,7 @@ The format has been developed to support the internal tool Pathogenwatch uses to
 ### Libraries
 | Species | NCBI Code |
 |---|---|
+| Candida auris | 498019 |
 | Campylobacter | 194 |
 | Neisseria gonorrhoeae | 485 |
 | Staphylococcus aureus | 1280 |
