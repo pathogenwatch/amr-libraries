@@ -24,7 +24,7 @@ The library used is shown in the PW website.
 - The _Salmonella Typhi_ library was developed and maintained by Silvia Argimon and Corin Yeats, while the CPE, ESBL and Colistin libraries were contributed by Sandra Reuter, Sophia David and Silvia Argimon.
 - The _Streptococcus pneumoniae_ library was contributed by Rebecca Gladstone and Stephen Bentley. A substantial update was developed and released in April 2020 by Stephanie Lo and Corin Yeats.
 - The _Vibrio cholerae_ library was developed by Sina Beier and Corin Yeats, and released in November 2021. It was substantially revised by Avril Coghlan and Corin Yeats in Februrary 2023.
-The _Candida auris_ library was developed by Silvia Argimon, Corin Yeats, and Johanna Rhodes and released in March 2023.
+- The _Candida auris_ library was developed by Silvia Argimon, Corin Yeats, and Johanna Rhodes and released in March 2023.
 
 ## Licence
 See [LICENSE](/LICENSE).
