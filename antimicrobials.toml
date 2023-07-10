@@ -31,6 +31,7 @@ antimicrobials = [
     { name = "Amoxicillin-Clavulanic Acid", key = "AMC", type = "Combination" },
     { name = "Piperacillin-Tazobactam", key = "TZP", type = "Combination" },
     { name = "Quinupristin-Dalfopristin", key = "QDP", type = "Combination" },
+    { name = "Antiseptic", key = "ANT", type = "Disinfectants/Antiseptics"},
     { name = "Trimethoprim", key = "TMP", type = "Diaminopyrimidine" },
     { name = "Fusidic Acid", key = "FUS", type = "Fusidic Acid" },
     { name = "Fluoroquinolones", key = "FLQ", type = "Fluoroquinolones" },
