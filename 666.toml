@@ -8,9 +8,8 @@ mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["STM"] }], members = ["strA", "strB"] },
     { phenotypes = [{ effect = "INTERMEDIATE", profile = ["CHL"] }], members = ["catB9"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["CHL"] }], members = ["floR"] },
-    { phenotypes = [{ effect = "RESISTANT", profile = ["SSX"] }], members = ["sul1"] },
-    { phenotypes = [{ effect = "RESISTANT", profile = ["SSX"] }], members = ["sul2"] },
-    { phenotypes = [{ effect = "RESISTANT", profile = ["TMP", "SSS"] }], members = ["dfrA1"] },
+    { phenotypes = [{ effect = "RESISTANT", profile = ["SSX", "SSS"] }], members = ["sul1"] },
+    { phenotypes = [{ effect = "RESISTANT", profile = ["SSX", "SSS"] }], members = ["sul2"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP", "CBP", "CEP", "CRO", "CAZ", "FEP"] }], members = ["varG"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["NAL"] }, { effect = "INTERMEDIATE", profile = ["CIP"] }], members = [{ gene = "parC", variants = ["S85L"] }, { gene = "gyrA", variants = ["S83I"] }] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["FZL", "NFT"] }], members = [{ gene = "nfsA", variants = ["R169C"] }, { gene = "nfsB", variants = ["Q5*"] }] },
@@ -19,6 +18,8 @@ mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["TCY"]}], members = ["tet(C)"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["TCY"]}], members = ["tet(D)"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["TCY"]}], members = ["tet(G)"]},
+    { phenotypes = [{ effect = "RESISTANT", profile = ["TCY"]}], members = ["tet_new"]},
+    { phenotypes = [{ effect = "RESISTANT", profile = ["TMP"] }], members = ["dfrA1"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["TMP"]}], members = ["dfrA23"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["TMP"]}], members = ["dfrA15"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["TMP"]}], members = ["dfrA31"]},
@@ -27,7 +28,7 @@ mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["STM"]}], members = ["aac(6')-Ib-cr"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["CAZ","CEP","AMP","CRO","FEP"]}], members = ["blaOXA-10"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["CHL"]}], members = ["cmlA1"]},
-    { phenotypes = [{ effect = "RESISTANT", profile = ["CHL"]}], members = ["ARR-2"]},
+    { phenotypes = [{ effect = "RESISTANT", profile = ["RIF"]}], members = ["ARR-2"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["CHL"]}], members = ["catA1"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"]}], members = ["blaOXA-1"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"]}], members = ["blaCARB-4"]},
@@ -39,7 +40,6 @@ mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["CIP"]}], members = ["qnrVC1"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["ANT"]}], members = ["qacEdelta"]},
     { phenotypes = [{ effect = "RESISTANT", profile = ["ANT"]}], members = ["qacL"]},
-    { phenotypes = [{ effect = "RESISTANT", profile = ["ANT"]}], members = ["tet_new"]},
 ]
 
 genes = [
