@@ -53,6 +53,7 @@ mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["CHL"] }], members = ["catA2"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"] }], members = ["blaOXA-1"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"] }], members = ["blaOXA-2"] },
+    { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"] }], members = ["blaOXA-21"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"] }], members = ["blaCARB-4"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"] }], members = ["blaCARB-2"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP"] }], members = ["blaTEM-1b"] },
