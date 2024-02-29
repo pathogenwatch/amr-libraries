@@ -9,4 +9,6 @@ genes = [
 
 mechanisms = [
 {members = [{gene="gyrA", variants=["T86I"]}], phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}]},
+{members = [{gene="gyrA", variants=["T86A"]}], phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}]},
+{members = [{gene="gyrA", variants=["T86V"]}], phenotypes = [{effect = "RESISTANT", profile = ["CIP"]}]},
 ]
