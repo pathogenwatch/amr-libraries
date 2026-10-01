@@ -16,11 +16,11 @@ matrix are the reference phenotype and columns are the Paarsnp prediction.
 | [Victoria, Australia, 2018–2022](https://pathogen.watch/collections/d8N653w2ZHFxMkyqYs8CeB-higgs-et-al-2023)                                  | 1,472 public *S. pneumoniae* genomes; source sequence collection: [NCBI BioProject PRJNA857543](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA857543).                                                                                                                                      | Published Sensititre STP6F broth-microdilution MICs, interpreted by CLSI. CHL, CLI, ERY, LVX, MFX, LNZ, TCY and SXT were evaluated. Two of the 1,474 published isolates were not in Pathogenwatch; both were susceptible at all evaluated endpoints. | [Higgs *et al.* 2023](https://doi.org/10.1128/aac.00785-23)                                                                                                                                                   |
 | [Supplementary FLQ/KAN controls](https://pathogen.watch/collections/nEaETRcy3bL6hHQRf2S8bz-s-pneumoniae-flqkan-validation-genomes-2026-09-29) | Public assemblies: [SP224896](https://www.ncbi.nlm.nih.gov/assembly/GCA_001553495.1), [SP225994](https://www.ncbi.nlm.nih.gov/assembly/GCA_001545505.1), [BM4200](https://www.ncbi.nlm.nih.gov/assembly/GCA_035465375.1), and [R6](https://www.ncbi.nlm.nih.gov/assembly/GCF_000007045.1). | Three literature-linked FLQ controls and two KAN controls. This small set is a targeted rule check, not an accuracy estimate.                                                                                                                        | [Hawkins *et al.* 2017](https://doi.org/10.1016/j.ijmm.2017.07.008); [Keness & Bisharat 2016](https://doi.org/10.1128/genomeA.00181-16); [Collatz *et al.* 1984](https://doi.org/10.1099/00221287-130-7-1665) |
 
-The run inputs, raw Paarsnp results, comparison tables and machine-readable
-summaries are retained under
-`Spn-update-20260924/validation-results/release-candidate-20260930/`. The
-baseline Victoria summary is retained in
-`Spn-update-20260924/validation-results/summary.json`.
+## Data availability
+
+- CSV files containing phenotypes are in [1313-evaluation-phenotypes](./1313-evaluation-phenotypes).
+- FASTA files can be downloaded from the corresponding Pathongewatch collections by clicking on the name of the test set.
+- Code for running validations and generating tables are in [evaluation-utils](./evaluation-utils).
 
 ## Release comparison summary
 
