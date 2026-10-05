@@ -1,0 +1,339 @@
+{
+  "assemblyId" : "SP225994",
+  "library" : {
+    "source" : "PUBLIC",
+    "version" : "0.0.20",
+    "label" : "1313"
+  },
+  "acquired" : [ "cat_pC194", "tetM_12", "ermB" ],
+  "variants" : [ "parC_S79F", "gyrA_S81F", "folA_I100L", "folP_aa_insert_57-70" ],
+  "matches" : [ {
+    "refId" : "cat_pC194",
+    "refStart" : 1,
+    "queryId" : "LRSN01000167.1 Streptococcus pneumoniae strain 225994 Node_35, whole genome shotgun sequence",
+    "queryStart" : 4763,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 651,
+    "queryStop" : 5413,
+    "refLength" : 651,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "parE",
+    "refStart" : 1,
+    "queryId" : "LRSN01000172.1 Streptococcus pneumoniae strain 225994 Node_4, whole genome shotgun sequence",
+    "queryStart" : 2825,
+    "pid" : 99.74,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1944,
+    "queryStop" : 4768,
+    "refLength" : 1944,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "tetM_12",
+    "refStart" : 1,
+    "queryId" : "LRSN01000001.1 Streptococcus pneumoniae strain 225994 Node_1, whole genome shotgun sequence",
+    "queryStart" : 164889,
+    "pid" : 99.74,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1920,
+    "queryStop" : 166808,
+    "refLength" : 1920,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "LRSN01000001.1 Streptococcus pneumoniae strain 225994 Node_1, whole genome shotgun sequence",
+    "queryStart" : 154234,
+    "pid" : 99.73,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 154971,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "23S_rRNA",
+    "refStart" : 1,
+    "queryId" : "LRSN01000178.1 Streptococcus pneumoniae strain 225994 Node_45, whole genome shotgun sequence",
+    "queryStart" : 2158,
+    "pid" : 99.69,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2904,
+    "queryStop" : 5061,
+    "refLength" : 2904,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "parC",
+    "refStart" : 1,
+    "queryId" : "LRSN01000172.1 Streptococcus pneumoniae strain 225994 Node_4, whole genome shotgun sequence",
+    "queryStart" : 5188,
+    "pid" : 99.56,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2472,
+    "queryStop" : 7659,
+    "refLength" : 2472,
+    "resistanceVariants" : [ {
+      "name" : "S79F",
+      "refStart" : 235,
+      "refStop" : 235,
+      "queryStart" : 5423,
+      "queryStop" : 5423
+    } ]
+  }, {
+    "refId" : "gyrB",
+    "refStart" : 1,
+    "queryId" : "LRSN01000045.1 Streptococcus pneumoniae strain 225994 Node_14, whole genome shotgun sequence",
+    "queryStart" : 58893,
+    "pid" : 98.82,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1947,
+    "queryStop" : 60839,
+    "refLength" : 1947,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "folA",
+    "refStart" : 1,
+    "queryId" : "LRSN01000078.1 Streptococcus pneumoniae strain 225994 Node_17, whole genome shotgun sequence",
+    "queryStart" : 37618,
+    "pid" : 97.04,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 507,
+    "queryStop" : 38124,
+    "refLength" : 507,
+    "resistanceVariants" : [ {
+      "name" : "I100L",
+      "refStart" : 298,
+      "refStop" : 298,
+      "queryStart" : 37916,
+      "queryStop" : 37916
+    } ]
+  }, {
+    "refId" : "gyrA",
+    "refStart" : 1,
+    "queryId" : "LRSN01000134.1 Streptococcus pneumoniae strain 225994 Node_22, whole genome shotgun sequence",
+    "queryStart" : 22532,
+    "pid" : 95.87,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2469,
+    "queryStop" : 25000,
+    "refLength" : 2469,
+    "resistanceVariants" : [ {
+      "name" : "S81F",
+      "refStart" : 241,
+      "refStop" : 241,
+      "queryStart" : 22773,
+      "queryStop" : 22773
+    } ]
+  }, {
+    "refId" : "folP",
+    "refStart" : 1,
+    "queryId" : "LRSN01000216.1 Streptococcus pneumoniae strain 225994 Node_8, whole genome shotgun sequence",
+    "queryStart" : 85921,
+    "pid" : 93.78,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 945,
+    "queryStop" : 86868,
+    "refLength" : 945,
+    "resistanceVariants" : [ {
+      "name" : "aa_insert_57-70",
+      "refStart" : 178,
+      "refStop" : 178,
+      "queryStart" : 86099,
+      "queryStop" : 86099
+    } ]
+  } ],
+  "resistanceProfile" : [ {
+    "agent" : {
+      "key" : "CHL",
+      "type" : "Phenicols",
+      "name" : "Chloramphenicol"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "cat_pC194",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "cat_pC194" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "CLI",
+      "type" : "Lincosamides",
+      "name" : "Clindamycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "ermB",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "ermB" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "ERY",
+      "type" : "Macrolides",
+      "name" : "Erythromycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "ermB",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "ermB" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "FLQ",
+      "type" : "Fluoroquinolones",
+      "name" : "Fluoroquinolones"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "parC",
+        "variant" : "S79F",
+        "resistanceEffect" : "CONTRIBUTES"
+      }, {
+        "gene" : "gyrA",
+        "variant" : "S81F",
+        "resistanceEffect" : "CONTRIBUTES"
+      } ]
+    },
+    "determinantRules" : {
+      "gyrA_S81F__parC_S79F" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "KAN",
+      "type" : "Aminoglycosides",
+      "name" : "Kanamycin"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "LNZ",
+      "type" : "Oxazolidinone",
+      "name" : "Linezolid"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "TCY",
+      "type" : "Tetracyclines",
+      "name" : "Tetracycline"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "tetM_12",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "tetM_12" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "TMP",
+      "type" : "Diaminopyrimidine",
+      "name" : "Trimethoprim"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folA",
+        "variant" : "I100L",
+        "resistanceEffect" : "RESISTANCE"
+      } ]
+    },
+    "determinantRules" : {
+      "folA_I100L" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "SSS",
+      "type" : "Sulfonamides",
+      "name" : "Sulfamethoxazole"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folP",
+        "variant" : "aa_insert_57-70",
+        "resistanceEffect" : "RESISTANCE"
+      } ]
+    },
+    "determinantRules" : {
+      "folP_aa_insert_57-70" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "SXT",
+      "type" : "Combination",
+      "name" : "Co-Trimoxazole"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folP",
+        "variant" : "aa_insert_57-70",
+        "resistanceEffect" : "CONTRIBUTES"
+      }, {
+        "gene" : "folA",
+        "variant" : "I100L",
+        "resistanceEffect" : "CONTRIBUTES"
+      } ]
+    },
+    "determinantRules" : {
+      "folP_aa_insert_57-70__folA_I100L" : "RESISTANT",
+      "folP_aa_insert_57-70__folA_4_I100L" : "INTERMEDIATE"
+    }
+  } ]
+}

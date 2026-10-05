@@ -1,0 +1,439 @@
+{
+  "assemblyId" : "BM4200",
+  "library" : {
+    "source" : "PUBLIC",
+    "version" : "0.0.20",
+    "label" : "1313"
+  },
+  "acquired" : [ "cat_pC194", "tetM_8", "ermB", "aph_3'_III_1" ],
+  "variants" : [ "folA_I100L", "folP_aa_insert_57-70" ],
+  "matches" : [ {
+    "refId" : "aph_3'_III_1",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000193.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.193, whole genome shotgun sequence",
+    "queryStart" : 1054,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 795,
+    "queryStop" : 1848,
+    "refLength" : 795,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "aph_3'_III_1",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000351.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.300, whole genome shotgun sequence",
+    "queryStart" : 7,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 795,
+    "queryStop" : 801,
+    "refLength" : 795,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "cat_pC194",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000180.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.180, whole genome shotgun sequence",
+    "queryStart" : 2854,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 651,
+    "queryStop" : 3504,
+    "refLength" : 651,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000353.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.307, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "tetM_8",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000119.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.119, whole genome shotgun sequence",
+    "queryStart" : 350,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1920,
+    "queryStop" : 2269,
+    "refLength" : 1920,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "tetM_8",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000350.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.242, whole genome shotgun sequence",
+    "queryStart" : 56,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1920,
+    "queryStop" : 1975,
+    "refLength" : 1920,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000352.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.306, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.86,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000355.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.309, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.86,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000357.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.311, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.86,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000354.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.308, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.73,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000356.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.310, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.73,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000359.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.313, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.73,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "gyrA",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000147.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.147, whole genome shotgun sequence",
+    "queryStart" : 1362,
+    "pid" : 99.72,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2469,
+    "queryStop" : 3830,
+    "refLength" : 2469,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "parC",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000011.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.011, whole genome shotgun sequence",
+    "queryStart" : 14668,
+    "pid" : 99.6,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2472,
+    "queryStop" : 17139,
+    "refLength" : 2472,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "ermB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000358.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.guided.312, whole genome shotgun sequence",
+    "queryStart" : 6,
+    "pid" : 99.59,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 738,
+    "queryStop" : 743,
+    "refLength" : 738,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "parE",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000011.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.011, whole genome shotgun sequence",
+    "queryStart" : 12305,
+    "pid" : 99.49,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1944,
+    "queryStop" : 14248,
+    "refLength" : 1944,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "gyrB",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000015.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.015, whole genome shotgun sequence",
+    "queryStart" : 2104,
+    "pid" : 98.92,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 1947,
+    "queryStop" : 4050,
+    "refLength" : 1947,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "folP",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000101.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.101, whole genome shotgun sequence",
+    "queryStart" : 2753,
+    "pid" : 96.95,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 945,
+    "queryStop" : 3703,
+    "refLength" : 945,
+    "resistanceVariants" : [ {
+      "name" : "aa_insert_57-70",
+      "refStart" : 184,
+      "refStop" : 184,
+      "queryStart" : 2937,
+      "queryStop" : 2937
+    } ]
+  }, {
+    "refId" : "folA",
+    "refStart" : 1,
+    "queryId" : "DAUZSZ010000002.1 TPA_asm: Streptococcus pneumoniae strain BM4200 SAMEA677561-rid20250403.denovo.002, whole genome shotgun sequence",
+    "queryStart" : 7128,
+    "pid" : 93.1,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 507,
+    "queryStop" : 7634,
+    "refLength" : 507,
+    "resistanceVariants" : [ {
+      "name" : "I100L",
+      "refStart" : 298,
+      "refStop" : 298,
+      "queryStart" : 7426,
+      "queryStop" : 7426
+    } ]
+  } ],
+  "resistanceProfile" : [ {
+    "agent" : {
+      "key" : "CHL",
+      "type" : "Phenicols",
+      "name" : "Chloramphenicol"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "cat_pC194",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "cat_pC194" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "CLI",
+      "type" : "Lincosamides",
+      "name" : "Clindamycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "ermB",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "ermB" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "ERY",
+      "type" : "Macrolides",
+      "name" : "Erythromycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "ermB",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "ermB" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "FLQ",
+      "type" : "Fluoroquinolones",
+      "name" : "Fluoroquinolones"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "KAN",
+      "type" : "Aminoglycosides",
+      "name" : "Kanamycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "aph_3'_III_1",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "aph_3'_III_1" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "LNZ",
+      "type" : "Oxazolidinone",
+      "name" : "Linezolid"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "TCY",
+      "type" : "Tetracyclines",
+      "name" : "Tetracycline"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "tetM_8",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "tetM_8" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "TMP",
+      "type" : "Diaminopyrimidine",
+      "name" : "Trimethoprim"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folA",
+        "variant" : "I100L",
+        "resistanceEffect" : "RESISTANCE"
+      } ]
+    },
+    "determinantRules" : {
+      "folA_I100L" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "SSS",
+      "type" : "Sulfonamides",
+      "name" : "Sulfamethoxazole"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folP",
+        "variant" : "aa_insert_57-70",
+        "resistanceEffect" : "RESISTANCE"
+      } ]
+    },
+    "determinantRules" : {
+      "folP_aa_insert_57-70" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "SXT",
+      "type" : "Combination",
+      "name" : "Co-Trimoxazole"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folP",
+        "variant" : "aa_insert_57-70",
+        "resistanceEffect" : "CONTRIBUTES"
+      }, {
+        "gene" : "folA",
+        "variant" : "I100L",
+        "resistanceEffect" : "CONTRIBUTES"
+      } ]
+    },
+    "determinantRules" : {
+      "folP_aa_insert_57-70__folA_I100L" : "RESISTANT",
+      "folP_aa_insert_57-70__folA_4_I100L" : "INTERMEDIATE"
+    }
+  } ]
+}

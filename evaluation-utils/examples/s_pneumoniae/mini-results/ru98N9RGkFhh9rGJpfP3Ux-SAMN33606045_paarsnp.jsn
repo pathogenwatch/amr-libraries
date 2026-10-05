@@ -1,0 +1,223 @@
+{
+  "assemblyId" : "ru98N9RGkFhh9rGJpfP3Ux-SAMN33606045",
+  "library" : {
+    "source" : "PUBLIC",
+    "version" : "0.0.20",
+    "label" : "1313"
+  },
+  "acquired" : [ ],
+  "variants" : [ ],
+  "matches" : [ {
+    "refId" : "parC",
+    "refStart" : 1,
+    "queryId" : "NODE_42_length_13262_cov_37.666565",
+    "queryStart" : 7259,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 2472,
+    "queryStop" : 9730,
+    "refLength" : 2472,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "parE",
+    "refStart" : 1,
+    "queryId" : "NODE_42_length_13262_cov_37.666565",
+    "queryStart" : 10150,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 1944,
+    "queryStop" : 12093,
+    "refLength" : 1944,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "folA",
+    "refStart" : 1,
+    "queryId" : "NODE_46_length_9679_cov_48.243946",
+    "queryStart" : 7935,
+    "pid" : 99.8,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 507,
+    "queryStop" : 8441,
+    "refLength" : 507,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "23S_rRNA",
+    "refStart" : 1,
+    "queryId" : "NODE_8_length_61278_cov_49.749984",
+    "queryStart" : 56766,
+    "pid" : 99.76,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 2904,
+    "queryStop" : 59669,
+    "refLength" : 2904,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "gyrA",
+    "refStart" : 1,
+    "queryId" : "NODE_19_length_40069_cov_30.005204",
+    "queryStart" : 2804,
+    "pid" : 99.64,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2469,
+    "queryStop" : 5272,
+    "refLength" : 2469,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "gyrB",
+    "refStart" : 1,
+    "queryId" : "NODE_7_length_69614_cov_33.634108",
+    "queryStart" : 65214,
+    "pid" : 98.2,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1947,
+    "queryStop" : 67160,
+    "refLength" : 1947,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "folP",
+    "refStart" : 1,
+    "queryId" : "NODE_1_length_143690_cov_38.380685",
+    "queryStart" : 39833,
+    "pid" : 98.1,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 945,
+    "queryStop" : 40777,
+    "refLength" : 945,
+    "resistanceVariants" : [ ]
+  } ],
+  "resistanceProfile" : [ {
+    "agent" : {
+      "key" : "CHL",
+      "type" : "Phenicols",
+      "name" : "Chloramphenicol"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "CLI",
+      "type" : "Lincosamides",
+      "name" : "Clindamycin"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "ERY",
+      "type" : "Macrolides",
+      "name" : "Erythromycin"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "FLQ",
+      "type" : "Fluoroquinolones",
+      "name" : "Fluoroquinolones"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "KAN",
+      "type" : "Aminoglycosides",
+      "name" : "Kanamycin"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "LNZ",
+      "type" : "Oxazolidinone",
+      "name" : "Linezolid"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "TCY",
+      "type" : "Tetracyclines",
+      "name" : "Tetracycline"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "TMP",
+      "type" : "Diaminopyrimidine",
+      "name" : "Trimethoprim"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "SSS",
+      "type" : "Sulfonamides",
+      "name" : "Sulfamethoxazole"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "SXT",
+      "type" : "Combination",
+      "name" : "Co-Trimoxazole"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  } ]
+}

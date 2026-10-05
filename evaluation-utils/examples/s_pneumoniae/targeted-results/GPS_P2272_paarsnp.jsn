@@ -1,0 +1,351 @@
+{
+  "assemblyId" : "GPS_P2272",
+  "library" : {
+    "source" : "PUBLIC",
+    "version" : "0.0.20",
+    "label" : "1313"
+  },
+  "acquired" : [ "cat_pC194", "mefA_10", "msrD", "aph_3'_III_1" ],
+  "variants" : [ "gyrA_S81F", "folA_I100L", "folP_aa_insert_57-70", "parC_S79Y" ],
+  "matches" : [ {
+    "refId" : "aph_3'_III_1",
+    "refStart" : 1,
+    "queryId" : "NODE_41_length_17174_cov_26.415872",
+    "queryStart" : 13982,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 795,
+    "queryStop" : 14776,
+    "refLength" : 795,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "cat_pC194",
+    "refStart" : 1,
+    "queryId" : "NODE_60_length_6102_cov_30.062220",
+    "queryStart" : 2930,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 651,
+    "queryStop" : 3580,
+    "refLength" : 651,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "mefA_10",
+    "refStart" : 1,
+    "queryId" : "NODE_62_length_5656_cov_28.910769",
+    "queryStart" : 1180,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1218,
+    "queryStop" : 2397,
+    "refLength" : 1218,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "msrD",
+    "refStart" : 1,
+    "queryId" : "NODE_62_length_5656_cov_28.910769",
+    "queryStart" : 2517,
+    "pid" : 100.0,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1464,
+    "queryStop" : 3980,
+    "refLength" : 1464,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "23S_rRNA",
+    "refStart" : 1,
+    "queryId" : "NODE_64_length_5030_cov_54.681736",
+    "queryStart" : 1935,
+    "pid" : 99.93,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2904,
+    "queryStop" : 4838,
+    "refLength" : 2904,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "parE",
+    "refStart" : 1,
+    "queryId" : "NODE_12_length_55543_cov_25.857792",
+    "queryStart" : 1570,
+    "pid" : 99.79,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 1944,
+    "queryStop" : 3513,
+    "refLength" : 1944,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "gyrA",
+    "refStart" : 1,
+    "queryId" : "NODE_37_length_18992_cov_23.769255",
+    "queryStart" : 1399,
+    "pid" : 99.68,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2469,
+    "queryStop" : 3867,
+    "refLength" : 2469,
+    "resistanceVariants" : [ {
+      "name" : "S81F",
+      "refStart" : 241,
+      "refStop" : 241,
+      "queryStart" : 1640,
+      "queryStop" : 1640
+    } ]
+  }, {
+    "refId" : "parC",
+    "refStart" : 1,
+    "queryId" : "NODE_12_length_55543_cov_25.857792",
+    "queryStart" : 3933,
+    "pid" : 99.64,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 2472,
+    "queryStop" : 6404,
+    "refLength" : 2472,
+    "resistanceVariants" : [ {
+      "name" : "S79Y",
+      "refStart" : 235,
+      "refStop" : 235,
+      "queryStart" : 4168,
+      "queryStop" : 4168
+    } ]
+  }, {
+    "refId" : "gyrB",
+    "refStart" : 1,
+    "queryId" : "NODE_24_length_32662_cov_26.715930",
+    "queryStart" : 2607,
+    "pid" : 98.41,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 1947,
+    "queryStop" : 4553,
+    "refLength" : 1947,
+    "resistanceVariants" : [ ]
+  }, {
+    "refId" : "folP",
+    "refStart" : 1,
+    "queryId" : "NODE_1_length_167613_cov_30.440975",
+    "queryStart" : 128757,
+    "pid" : 93.27,
+    "evalue" : 0.0,
+    "strand" : "FORWARD",
+    "reversed" : false,
+    "refStop" : 945,
+    "queryStop" : 129707,
+    "refLength" : 945,
+    "resistanceVariants" : [ {
+      "name" : "aa_insert_57-70",
+      "refStart" : 175,
+      "refStop" : 175,
+      "queryStart" : 128932,
+      "queryStop" : 128932
+    } ]
+  }, {
+    "refId" : "folA",
+    "refStart" : 1,
+    "queryId" : "NODE_2_length_81185_cov_26.064949",
+    "queryStart" : 61242,
+    "pid" : 91.36,
+    "evalue" : 0.0,
+    "strand" : "REVERSE",
+    "reversed" : true,
+    "refStop" : 507,
+    "queryStop" : 61748,
+    "refLength" : 507,
+    "resistanceVariants" : [ {
+      "name" : "I100L",
+      "refStart" : 298,
+      "refStop" : 298,
+      "queryStart" : 61540,
+      "queryStop" : 61540
+    } ]
+  } ],
+  "resistanceProfile" : [ {
+    "agent" : {
+      "key" : "CHL",
+      "type" : "Phenicols",
+      "name" : "Chloramphenicol"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "cat_pC194",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "cat_pC194" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "CLI",
+      "type" : "Lincosamides",
+      "name" : "Clindamycin"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "ERY",
+      "type" : "Macrolides",
+      "name" : "Erythromycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "mefA_10",
+        "resistanceEffect" : "CONTRIBUTES"
+      }, {
+        "gene" : "msrD",
+        "resistanceEffect" : "CONTRIBUTES"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "mefA_10__msrD" : "RESISTANT",
+      "msrD" : "INTERMEDIATE"
+    }
+  }, {
+    "agent" : {
+      "key" : "FLQ",
+      "type" : "Fluoroquinolones",
+      "name" : "Fluoroquinolones"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "gyrA",
+        "variant" : "S81F",
+        "resistanceEffect" : "CONTRIBUTES"
+      }, {
+        "gene" : "parC",
+        "variant" : "S79Y",
+        "resistanceEffect" : "CONTRIBUTES"
+      } ]
+    },
+    "determinantRules" : {
+      "gyrA_S81F__parC_S79Y" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "KAN",
+      "type" : "Aminoglycosides",
+      "name" : "Kanamycin"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ {
+        "gene" : "aph_3'_III_1",
+        "resistanceEffect" : "RESISTANCE"
+      } ],
+      "variants" : [ ]
+    },
+    "determinantRules" : {
+      "aph_3'_III_1" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "LNZ",
+      "type" : "Oxazolidinone",
+      "name" : "Linezolid"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "TCY",
+      "type" : "Tetracyclines",
+      "name" : "Tetracycline"
+    },
+    "state" : "NOT_FOUND",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ ]
+    },
+    "determinantRules" : { }
+  }, {
+    "agent" : {
+      "key" : "TMP",
+      "type" : "Diaminopyrimidine",
+      "name" : "Trimethoprim"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folA",
+        "variant" : "I100L",
+        "resistanceEffect" : "RESISTANCE"
+      } ]
+    },
+    "determinantRules" : {
+      "folA_I100L" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "SSS",
+      "type" : "Sulfonamides",
+      "name" : "Sulfamethoxazole"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folP",
+        "variant" : "aa_insert_57-70",
+        "resistanceEffect" : "RESISTANCE"
+      } ]
+    },
+    "determinantRules" : {
+      "folP_aa_insert_57-70" : "RESISTANT"
+    }
+  }, {
+    "agent" : {
+      "key" : "SXT",
+      "type" : "Combination",
+      "name" : "Co-Trimoxazole"
+    },
+    "state" : "RESISTANT",
+    "determinants" : {
+      "acquired" : [ ],
+      "variants" : [ {
+        "gene" : "folP",
+        "variant" : "aa_insert_57-70",
+        "resistanceEffect" : "CONTRIBUTES"
+      }, {
+        "gene" : "folA",
+        "variant" : "I100L",
+        "resistanceEffect" : "CONTRIBUTES"
+      } ]
+    },
+    "determinantRules" : {
+      "folP_aa_insert_57-70__folA_I100L" : "RESISTANT",
+      "folP_aa_insert_57-70__folA_4_I100L" : "INTERMEDIATE"
+    }
+  } ]
+}
