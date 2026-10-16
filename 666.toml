@@ -2,16 +2,16 @@ label = "666"
 
 extends = ["gram_neg_carbapenemases", "gram_neg_esbl"]
 
-antimicrobials = ["AZM", "AMP", "ANT", "CAZ", "CBP", "CEP", "CHL", "CIP", "CRO", "DOX", "ERY", "FEP", "FZL", "MEM", "NAL", "NFT", "OTHER", "RIF", "SSS", "SSX", "STM", "SXT", "TCY", "TMP"]
+antimicrobials = ["AZM", "AMP", "ANT", "CAZ", "CBP", "CEP", "CHL", "CIP", "CRO", "DOX", "ERY", "FEP", "FZL", "MEM", "NAL", "NFT", "RIF", "SIL", "SSS", "SSX", "STM", "SXT", "TCY", "TMP"]
 
 mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["STM"] }], members = ["strA", "strB"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["STM"] }], members = ["aac(3)-I"] },
-    { phenotypes = [{ effect = "INTERMEDIATE", profile = ["OTHER"] }], members = ["catB9"] },
+    { phenotypes = [{ effect = "INTERMEDIATE", profile = ["SIL"] }], members = ["catB9"] },
     { phenotypes = [{ effect = "INTERMEDIATE", profile = ["CHL"] }], members = ["floR"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["SSX", "SSS"] }], members = ["sul1"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["SSX", "SSS"] }], members = ["sul2"] },
-    { phenotypes = [{ effect = "INTERMEDIATE", profile = ["OTHER"] }], members = ["varG"] },
+    { phenotypes = [{ effect = "INTERMEDIATE", profile = ["SIL"] }], members = ["varG"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP", "CAZ", "CRO", "FEP"] }], members = ["blaCMY-2"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP", "CAZ", "CRO", "FEP"] }], members = ["blaCMY-4"] },
     { phenotypes = [{ effect = "RESISTANT", profile = ["AMP", "CAZ", "CRO", "FEP"] }], members = ["blaPER-7"] },

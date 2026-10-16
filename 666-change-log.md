@@ -1,6 +1,6 @@
 # *V. cholerae* AMR library 666 change log
 
-Updated: 2026-10-05
+Updated: 2026-10-05 (Corrected: 2026-10-16)
 
 This log records the September/October 2026 update of `666.toml`. The library
 is curated by Vibriowatch from published literature and expert knowledge.
@@ -32,7 +32,7 @@ is curated by Vibriowatch from published literature and expert knowledge.
 
 ## Library coverage changes
 
-| Change                                         | Reason                                                                                                                                             |
-|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Added `ERY` and `SXT` antimicrobial keys       | These keys support the curated macrolide and co-trimoxazole rules.                                                                                 |
-| Retained `catB9` and `varG` as `OTHER` markers | Their low or uncertain phenotypic effect is retained as contextual expert-analysis information rather than a direct antimicrobial-resistance call. |
+| Change                                       | Reason                                                                                                                                             |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Added `ERY` and `SXT` antimicrobial keys     | These keys support the curated macrolide and co-trimoxazole rules.                                                                                 |
+| Retained `catB9` and `varG` as `SIL` markers | Their low or uncertain phenotypic effect is retained as contextual expert-analysis information rather than a direct antimicrobial-resistance call. |
