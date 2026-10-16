@@ -2,7 +2,7 @@ label = "666"
 
 extends = ["gram_neg_carbapenemases", "gram_neg_esbl"]
 
-antimicrobials = ["AZM", "AMP", "ANT", "CAZ", "CBP", "CEP", "CHL", "CIP", "CRO", "DOX", "ERY", "FEP", "FZL", "MEM", "NAL", "NFT", "RIF", "SSS", "SSX", "STM", "SXT", "TCY", "TMP"]
+antimicrobials = ["AZM", "AMP", "ANT", "CAZ", "CBP", "CEP", "CHL", "CIP", "CRO", "DOX", "ERY", "FEP", "FZL", "MEM", "NAL", "NFT", "OTHER", "RIF", "SSS", "SSX", "STM", "SXT", "TCY", "TMP"]
 
 mechanisms = [
     { phenotypes = [{ effect = "RESISTANT", profile = ["STM"] }], members = ["strA", "strB"] },
